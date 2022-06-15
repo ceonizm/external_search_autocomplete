@@ -1,0 +1,8 @@
+name: External Search Autocomplete
+description: "Adds autocomplete functionality to searches."
+dependencies:
+  - search_api_autocomplete
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: module
+package: Search

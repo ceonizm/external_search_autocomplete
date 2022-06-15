@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @see hook_install()
+ */
+function external_search_autocomplete_install() {
+
+  $editable = \Drupal::configFactory()->getEditable('search_api_autocomplete.settings');
+  $editable->set('enable_custom_scripts', TRUE);
+  $editable->save();
+}

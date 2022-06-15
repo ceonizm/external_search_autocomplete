@@ -1,0 +1,4 @@
+external_search_autocomplete.config:
+  title: 'External Search Autocomplete'
+  parent: system.admin_config_search
+  route_name: external_search_autocomplete.admin_form

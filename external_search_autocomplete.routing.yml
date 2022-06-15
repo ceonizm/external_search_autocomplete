@@ -1,0 +1,7 @@
+external_search_autocomplete.admin_form:
+  path: '/admin/config/search/cors_manager'
+  defaults:
+    _form: '\Drupal\external_search_autocomplete\Form\ExternalSearchAutocompleteAdminForm'
+    _title: 'External Search Autocomplete'
+  requirements:
+    _permission: 'access administration pages'
