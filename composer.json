@@ -1,0 +1,17 @@
+{
+    "name": "ceonizm/external_search_autocomplete",
+    "description": "hijack the search_api_autocomplete to allow gathering search on an other drupal instance",
+    "minimum-stability": "stable",
+    "type": "drupal-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "François Boukhalfa",
+            "homepage": "https://github.com/ceonizm",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/search_api_autocomplete": "^1.6"
+    }
+}
